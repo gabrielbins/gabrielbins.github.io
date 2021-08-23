@@ -1,32 +1,95 @@
 
 body {
+  background-color: rgb(247, 247, 247);
+}
+.botao1 {
+  background-color: green;
+  border-radius: 5%;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+.nome {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+.fototexto {
   background-color: white;
+  display: flex;
+  border-radius: 10px;
+ 
 }
-h1 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+.fotoperfil {
+  width: 250px;
+  padding: 2px;
+  background-color:darkgray ;
+  border-radius: 10px;
 }
-p {
+.descricao {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+}
+.redesocial {
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  margin-left: 300px ;
+  margin-top: 90px;
+  display: flex;
+  }
+  .facebook:hover, .instagram:hover, .github:hover, .linkedin:hover {
+   padding: 12px;
+  }
+
+.facebook, .instagram, .github, .linkedin {
+  padding: 10px;
+  
+  }
+.facebook {
+  background-image: url("imagens/facebook.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  overflow: hidden;
+  color: transparent;
+  margin:10px;
+}
+.instagram {
+  background-image: url("imagens/instagram-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  overflow: hidden;
+  color: transparent;
+  margin: 10px;
+}
+.github {
+  background-image: url("imagens/github.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  overflow: hidden;
+  color: transparent;
+  margin: 10px;
+}
+.linkedin {
+  background-image: url("imagens/linkedin.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  overflow: hidden;
+  color: transparent;
+  margin: 10px;
 }
 .infos {
   font-style: italic;
 }
-#risco {
-  text-decoration: line-through;
-}
-.um {
-  font-style: italic;
-  font-size: 21px;
-}
-.dois {
+.lista {
   font-size: 20px;
+  list-style: square;
 }
-.tres {
-  font-size: 19px;
+.hab {
+  background-color: white;
+  border-radius: 10px;
+ 
 }
-.quatro {
-  font-size: 18px;
-}
-.cinco {
-  font-size: 17px;
-}
+
