@@ -42,7 +42,7 @@ body {
 
 .facebook, .instagram, .github, .linkedin {
   padding: 10px;
-  
+  background-color: rgb(247, 247, 247)
   }
 .facebook {
   background-image: url("imagens/facebook.jpg");
@@ -89,7 +89,62 @@ body {
 }
 .hab {
   background-color: white;
-  border-radius: 10px;
- 
+  border-radius: 10px; 
 }
 
+.projetos {
+  display: flex;
+  width: 250px;
+  height: 300px;
+  text-decoration: none;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  color: transparent;
+}
+
+#projetos {
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  border-radius: 10px;
+}
+
+#projetosh3 {
+display: flex;
+justify-content: center;
+}
+
+#pixelart:hover , #todolist:hover , #trybewarts:hover {
+  padding: 5px;
+}
+
+.blocos {
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  border: black solid 1px;
+}
+
+#pixelart {
+  background-image: url(imagens/pixelart.png);
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+#todolist {
+  background-image: url(/imagens/todolist.png);
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+#trybewarts {
+  background-image: url(/imagens/trybewarts-colored.svg);
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+}
