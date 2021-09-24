@@ -42,8 +42,8 @@ body {
 
 .facebook, .instagram, .github, .linkedin {
   padding: 10px;
-  background-color: rgb(247, 247, 247)
   }
+
 .facebook {
   background-image: url("imagens/facebook.jpg");
   background-size: contain;
@@ -53,6 +53,7 @@ body {
   color: transparent;
   margin:10px;
 }
+
 .instagram {
   background-image: url("imagens/instagram-logo.png");
   background-size: contain;
@@ -62,6 +63,7 @@ body {
   color: transparent;
   margin: 10px;
 }
+
 .github {
   background-image: url("imagens/github.png");
   background-size: contain;
@@ -71,6 +73,7 @@ body {
   color: transparent;
   margin: 10px;
 }
+
 .linkedin {
   background-image: url("imagens/linkedin.png");
   background-size: contain;
@@ -80,13 +83,16 @@ body {
   color: transparent;
   margin: 10px;
 }
+
 .infos {
   font-style: italic;
 }
+
 .lista {
   font-size: 20px;
   list-style: square;
 }
+
 .hab {
   background-color: white;
   border-radius: 10px; 
