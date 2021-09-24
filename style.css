@@ -2,6 +2,7 @@
 body {
   background-color: rgb(247, 247, 247);
 }
+
 .botao1 {
   background-color: green;
   border-radius: 5%;
@@ -9,40 +10,45 @@ body {
   color: white;
   text-decoration: none;
 }
+
 .nome {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
+
 .fototexto {
   background-color: white;
   display: flex;
-  border-radius: 10px;
- 
+  border-radius: 10px; 
 }
+
 .fotoperfil {
   width: 250px;
   padding: 2px;
   background-color:darkgray ;
   border-radius: 10px;
 }
+
 .descricao {
   font-family: Arial, Helvetica, sans-serif;
   padding: 30px;
 }
+
 .redesocial {
+  display: flex;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
-  margin-left: 300px ;
   margin-top: 90px;
-  display: flex;
-  }
-  .facebook:hover, .instagram:hover, .github:hover, .linkedin:hover {
-   padding: 12px;
-  }
+}
+
+.facebook:hover, .instagram:hover, .github:hover, .linkedin:hover {
+ padding: 12px;
+}
+
 
 .facebook, .instagram, .github, .linkedin {
   padding: 10px;
-  }
+}
 
 .facebook {
   background-image: url("imagens/facebook.jpg");
@@ -124,7 +130,7 @@ justify-content: center;
 }
 
 #pixelart:hover , #todolist:hover , #trybewarts:hover {
-  padding: 5px;
+  padding: 2px;
 }
 
 .blocos {
